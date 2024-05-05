@@ -14,3 +14,18 @@ variable "GKE_NUM_NODES" {
   type        = number
   description = "Number of nodes"
 }
+
+variable "GITHUB_OWNER" {
+  type        = string
+  description = "GitHub owner repositor to use"
+}
+
+variable "FLUX_GITHUB_REPO" {
+  type        = string
+  description = "Flux GitOps repository to use"
+}
+
+variable "GITHUB_TOKEN" {
+  type        = string
+  description = "GitHub personal access token"
+}
