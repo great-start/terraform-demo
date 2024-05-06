@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "yev-bill-terraform-store"
+    bucket = "yev-bill-tf-store"
     prefix = "terraform/"
   }
 }
